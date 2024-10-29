@@ -10,7 +10,7 @@ const StoreContextProvider = (props) => {
   const [cartItem, setCartItem] = useState({});
   const [token, setToken] = useState("");
   const [food_list, setFoodList] = useState([]);
-  const url = "http://localhost:4000";
+  const url = "https://tomato-backend-2ral.onrender.com";
 
   // Load cart data from localStorage and fetch initial data
   useEffect(() => {
