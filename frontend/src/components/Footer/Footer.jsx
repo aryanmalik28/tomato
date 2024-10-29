@@ -42,6 +42,10 @@ const Footer = () => {
                         <li>aryanmalik282003@gmail.com</li>
                     </ul>
                 </div>
+                <div className='footer-content-center'>
+                <img className='profile' src={assets.profile_image} alt=''/>
+                
+                 </div>
 
             </div>
             <hr/>
